@@ -67,7 +67,15 @@ Le profil NACA 0012 est un profil symétrique de référence en aéronautique. �
 
 ---
 
-## 4. Protocole expérimental
+## 4. Courbes théoriques
+
+Les courbes théoriques Cd = f(Re) pour les trois géométries sont présentées ci-dessous :
+
+![Courbes Cd vs Re](drag_curves.png)
+
+---
+
+## 5. Protocole expérimental
 
 ### Géométries testées
 Trois géométries ont été testées pour couvrir des comportements aérodynamiques très différents :
@@ -93,7 +101,7 @@ $$C_d = \frac{2 F_d}{\rho v^2 S}$$
 
 ---
 
-## 5. Traitement des données sous Python
+## 6. Traitement des données sous Python
 
 Les données brutes ont été traitées sous **Python** avec numpy et matplotlib :
 
@@ -114,7 +122,7 @@ $$IC_{95\%} = \bar{F_d} \pm 1{,}96 \cdot \frac{\sigma}{\sqrt{n}}$$
 
 ---
 
-## 6. Résultats et validation
+## 7. Résultats et validation
 
 Les courbes expérimentales Cd = f(Re) ont été comparées aux lois théoriques :
 
@@ -128,7 +136,7 @@ L'écart moyen global reste **inférieur à 9 %** sur l'ensemble des configurati
 
 ---
 
-## 7. Analyse critique des erreurs
+## 8. Analyse critique des erreurs
 
 Plusieurs sources d'erreur ont été identifiées et discutées :
 

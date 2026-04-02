@@ -43,6 +43,7 @@ def plot_curves():
     plt.xlabel('Re'); plt.ylabel('Cd')
     plt.title('Courbes théoriques Cd = f(Re)')
     plt.legend(); plt.grid(True)
+    plt.savefig('drag_curves.png', dpi=300, bbox_inches='tight')
     plt.show()
 
 if __name__ == "__main__":
